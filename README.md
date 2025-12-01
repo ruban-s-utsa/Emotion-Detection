@@ -32,7 +32,7 @@ A full project webpage including abstract, results, visualizations, and demos:
 ## 🖼 Poster  
 The final 1-slide research poster used for presentation:
 
-📄 **[Download Poster (PDF)](ADD_POSTER_LINK_HERE)**
+<img src="/Poster.png" width="1100">
 
 ---
 
@@ -110,45 +110,18 @@ Include your images/demos here:
 
 ---
 
-## 🚀 How to Run the Code
+## 🚀 Best Model Checkpoints
+Link -> https://drive.google.com/drive/folders/1TU0g_nf5phi0p5BcdsvIMy75kC9gEImG?usp=sharing
 
-### **1. Clone the Repository**
-git clone https://github.com/ruban-s-utsa/Emotion-Detection.git
-cd Emotion-Detection
-2. Install Dependencies
-pip install -r requirements.txt
-
-3. Train a Model
-python train_poster.py --config configs/poster.yaml
-
-4. Run Inference on Images
-python inference.py --model poster --image_path sample.jpg
-
-5. Run Inference on Video Call Frames
-python inference_video.py --model eecnn_resnet --folder frames/
-
-📁 Repository Structure
-```
-Emotion-Detection/
-│
-├── models/               # Model definitions (EECNN, ResNet, POSTER, PM-ViT)
-├── scripts/              # Training and evaluation pipelines
-├── notebooks/            # Colab notebooks for experimentation
-├── data/                 # Dataset preparation utilities
-├── media/                # Results, plots, demos
-├── configs/              # YAML config files for training
-├── requirements.txt      # Dependencies
-└── README.md             # Project documentation
-```
+---
 
 🧩 Future Work
-Add video-level temporal modeling (LSTMs, GRUs, Video Transformers)
-Train on more real-world sales call datasets
-Build a multi-modal system including audio sentiment
-Deploy real-time inference in Zoom/Teams plugin
-
+- Add video-level temporal modeling (LSTMs, GRUs, Video Transformers)
+- Train on more real-world sales call datasets
+- Build a multi-modal system including audio sentiment
+  
 🙏 Acknowledgements
-UTSA Computer Vision Course
-RAF-DB and AffectNet dataset creators
-POSTER and PM-ViT original authors
-Google Colab (T4 GPU)
+- UTSA Computer Vision Course
+- RAF-DB and AffectNet dataset creators
+- POSTER and PM-ViT original authors
+- Google Colab (T4 GPU)
